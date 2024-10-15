@@ -1,0 +1,22 @@
+.navbar-nav .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+.navbar-nav .active {
+    text-decoration: wavy underline rgb(40, 131, 40);
+    font-weight: bolder;
+}

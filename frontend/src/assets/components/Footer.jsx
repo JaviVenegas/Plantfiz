@@ -1,26 +1,14 @@
 
 import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="container-footer my-5">
-      <footer className="bg-dark text-center text-white">
+      <footer className="morado text-center text-white">
         <div className="container p-4 pb-0">
           <section className="mb-4">
-            <Link className="btn btn-outline-light btn-floating m-1" to="#!">
-              <i className="fab fa-facebook-f"></i>
-            </Link>
-            <Link className="btn btn-outline-light btn-floating m-1" to="#!">
-              <i className="fab fa-twitter"></i>
-            </Link>
-            <Link className="btn btn-outline-light btn-floating m-1" to="#!">
-              <i className="fab fa-google"></i>
-            </Link>
-            <Link className="btn btn-outline-light btn-floating m-1" to="#!">
-              <i className="fab fa-instagram"></i>
-            </Link>
-            <Link className="btn btn-outline-light btn-floating m-1" to="#!">
-              <i className="fab fa-linkedin-in"></i>
+            <Link className="btn btn-outline-light btn-floating" to="https://www.instagram.com/plantfiz/"> <FaInstagram size={28}/>
             </Link>
           </section>
         </div>

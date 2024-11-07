@@ -17,6 +17,18 @@ a {
 
 
 .navbar-nav .active {
-    text-decoration: wavy underline rgb(40, 131, 40);
-    font-weight: bolder;
+    color: var(--color1);
+    text-decoration: underline;
+
+}
+
+
+
+
+/*sadebar*/
+
+
+.morado{
+    background-color: var(--color2);
+
 }

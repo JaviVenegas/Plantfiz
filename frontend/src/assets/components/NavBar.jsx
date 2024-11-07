@@ -4,7 +4,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <nav className="poopins-font navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <NavLink className="navbar-brand p-1 logo" to="/">Planfiz</NavLink>
           <button className="navbar-toggler" 

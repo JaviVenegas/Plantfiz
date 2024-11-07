@@ -11,7 +11,7 @@ import Register from './assets/pages/Register';
 import ShoppingCart from './assets/pages/ShoppingCart';
 import NotFound from './assets/pages/NotFound';
 import Footer from './assets/components/Footer';
-import Sidebar from './assets/components/Sidebar'; 
+import Sidebar from './assets/components/Sidebar';
 
 
 function App() {

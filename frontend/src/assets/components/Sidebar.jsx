@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser } from "react-icons/hi";
 
+import Header from '../components/Header';
 
 const sidebar = () => {
   return (
@@ -40,7 +41,7 @@ const sidebar = () => {
             </div>
         </div>
         <div className="col py-3">
-            Content area...
+            <Header/>
         </div>
     </div>
 </div>
